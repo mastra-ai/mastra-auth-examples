@@ -2,20 +2,34 @@
 
 This repository contains examples of how to use Mastra Auth.
 
+## Installation
+
+```bash
+pnpm install
+```
+
 ## Supabase
 
 The `supabase` folder contains an example of how to use Mastra Auth with Supabase.
 
-View the example: [supabase/README.md](supabase/README.md)
+```
+pnpm --filter supabase dev
+```
 
 ## Firebase
 
 The `firebase` folder contains an example of how to use Mastra Auth with Firebase.
 
-View the example: [firebase/README.md](firebase/README.md)
+```
+pnpm --filter firebase dev
+```
 
 ## WorkOS
 
 The `workos` folder contains an example of how to use Mastra Auth with WorkOS.
 
 View the example: [workos/README.md](workos/README.md)
+
+```
+pnpm --filter workos dev
+```
