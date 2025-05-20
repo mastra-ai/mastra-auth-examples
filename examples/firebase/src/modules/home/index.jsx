@@ -2,6 +2,8 @@ import { Button } from "@/components/ui/button";
 import { useAuth } from "@/contexts/auth";
 import { MastraChat } from "@mastra/chat";
 
+import "@mastra/chat/dist/styles.css";
+
 export default function Home() {
   const { signOutUser, getToken } = useAuth();
   return (  
