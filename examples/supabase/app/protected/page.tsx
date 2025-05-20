@@ -1,7 +1,7 @@
 import { createClient } from "@/utils/supabase/server";
 import { MastraChat } from "@mastra/chat";
 import { redirect } from "next/navigation";
-import Weather from "./weather";
+import Weather from "@/components/weather";
 
 export default async function ProtectedPage() {
   const supabase = await createClient();

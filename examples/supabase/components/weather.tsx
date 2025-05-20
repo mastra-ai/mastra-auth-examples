@@ -3,6 +3,8 @@
 import { createClient } from "@/utils/supabase/client";
 import { MastraChat } from '@mastra/chat';
 
+import "@mastra/chat/dist/styles.css";
+
 export default function Weather({ token, userId }: { token?: string, userId?: string }) {
   const supabase = createClient();
 
