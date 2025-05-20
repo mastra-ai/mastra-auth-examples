@@ -1,0 +1,1 @@
+export { default as MastraChat } from './chat/index.js';
