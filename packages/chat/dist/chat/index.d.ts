@@ -2,7 +2,7 @@ export default function MastraChat({ agentId, getToken, onSubscribe, initialMess
     agentId: string;
     initialMessage?: string;
     baseUrl?: string;
-    getToken?: () => Promise<string>;
+    getToken?: () => Promise<string | null>;
     onSubscribe?: () => Promise<{
         message: string;
     } | void>;

@@ -13,7 +13,7 @@ export default function MastraChat({
   agentId: string,
   initialMessage?: string,
   baseUrl?: string,
-  getToken?: () => Promise<string>, 
+  getToken?: () => Promise<string | null>, 
   onSubscribe?: () => Promise<{ message: string } | void> 
 }) {
   const [loading, setLoading] = useState(false);
